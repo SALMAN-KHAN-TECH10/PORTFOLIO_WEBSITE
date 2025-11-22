@@ -255,7 +255,8 @@ p{
 }
 
 #hero{
-    background-image:url(asets/images/image.JPG);
+    /* FIX: Removed asets/images/ and changed .JPG to .jpg */
+    background-image:url(image.jpg); 
     background-size:cover;
     background-position:top center;
     position:relative;
